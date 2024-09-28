@@ -1,12 +1,12 @@
 app-id: me.hyliu.fluentreader
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '24.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node14
+  - org.freedesktop.Sdk.Extension.node20
 command: start-fluent-reader
 separate-locales: false
 finish-args:
